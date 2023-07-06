@@ -1,0 +1,44 @@
+/* Universal selectors */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header selectors */
+
+h1 {
+  text-align: center;
+}
+
+/* Colors section selectors */
+
+.colors ul {
+  list-style-type: none;
+}
+.scheme1 .color1 {
+  background-color: turquoise;
+}
+.scheme1 .color2 {
+  background-color: coral;
+}
+.scheme1 .color3 {
+  background-color: white;
+}
+.scheme2 .color1 {
+  background-color: #f76c6c;
+}
+.scheme2 .color2 {
+  background-color: #a8d0e6;
+}
+.scheme2 .color3 {
+  background-color: #263366;
+}
+.scheme3 .color1 {
+  background-color: #ffe01b;
+}
+.scheme3 .color2 {
+  background-color: teal;
+}
+.scheme3 .color3 {
+  background-color: white;
+}
