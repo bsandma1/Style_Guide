@@ -83,6 +83,7 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+
 /* Universal selectors */
 
 * {
@@ -102,11 +103,13 @@ h1, h2, .colors h3, .scheme1, .scheme2, .scheme3 {
   text-align: center;
 }
 
+
 /* Header selectors */
 
 header {
   margin: 50px;
 }
+
 
 /* Color Schemes section selectors */
 
@@ -177,6 +180,7 @@ header {
   box-shadow: 4px 4px 2px 2px dimgray;
 }
 
+
 /* Fonts section selectors */
 
 .fonts {
@@ -189,18 +193,18 @@ header {
   list-style-type: none;
 }
 .fonts hr {
-  margin: 15px 0;
+  margin: 15px 0 25px 0;
   opacity: .5;
 }
 .fonts h3 {
   margin: 15px 0 10px 0;
   text-decoration: underline;
 }
-.ubuntu li {
-  margin: 10px 0;
+.fonts li {
+  margin: 12px 0;
 }
-.martian-mono li {
-  margin: 10px 0;
+.fonts .ubuntu .italic {
+  margin-bottom: 30px;
 }
 .ubuntu {
   font-family: 'Ubuntu', sans-serif;
@@ -222,7 +226,9 @@ header {
 }
 .fonts div {
   text-align: center;
+  margin-bottom: 25px;
 }
+
 
 /* Text Styles section selectors */
 
@@ -231,4 +237,34 @@ header {
   border-radius: 20px;
   padding: 15px 30px 30px 30px;
   box-shadow: 8px 8px 2px 2px dimgray;
+}
+.text-styles hr {
+  margin: 15px 0 25px 0;
+  opacity: .5;
+}
+.text-styles ul {
+  list-style-type: none;
+  width: 50%;
+  margin: 0 auto 0 43%;
+}
+.text-styles h3 {
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px 2px dimgray;
+}
+.text-styles li {
+  margin: 10px 0;
+  font-size: 17px;
+}
+#h1 {
+  width: 17%;
+}
+#section-div {
+  width: 47%;
+}
+#list {
+  width: 39%;
+}
+#h1, #section-div, #list {
+  margin: 30px auto 20px auto;
 }
